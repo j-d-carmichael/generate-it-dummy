@@ -1,0 +1,22 @@
+{
+  "name": "generate-it-dummy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "generate:server": "generate-it ./pet-store-api.yml -y --mocked -t https://github.com/acrontum/openapi-nodegen-typescript-server.git"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johndcarmichael/generate-it-dummy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/johndcarmichael/generate-it-dummy/issues"
+  },
+  "homepage": "https://github.com/johndcarmichael/generate-it-dummy#readme",
+  "devDependencies": {
+    "generate-it": "^5.29.2"
+  }
+}
