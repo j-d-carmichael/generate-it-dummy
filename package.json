@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "generate:server": "generate-it ./pet-store-api.yml -y --mocked -t https://github.com/acrontum/openapi-nodegen-typescript-server.git"
+    "generate:server": "generate-it ./pet-store-api.yml -y -m -u -t https://github.com/acrontum/openapi-nodegen-typescript-server.git"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/johndcarmichael/generate-it-dummy#readme",
   "devDependencies": {
-    "generate-it": "^5.29.2"
+    "generate-it": "^5.31.0"
   }
 }
