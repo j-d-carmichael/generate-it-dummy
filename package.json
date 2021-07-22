@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/johndcarmichael/generate-it-dummy#readme",
   "devDependencies": {
-    "generate-it": "^5.31.0"
+    "generate-it": "^5.32.0"
   }
 }
